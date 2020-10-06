@@ -13,10 +13,12 @@ in [Headsail](https://github.com/zipavlin/headsail) package, based on amount of 
 
 ## How to run
 1. Clone this repo
-2. Set up a database and set connection in `.env` file.
-3. Run `php artisan collect`
-4. Run `php artisan start`
-5. Go grab a coffee/tea/beer/something, as this may take some time :)
+2. Set up a database and set connection in `.env` file.  
+Then either import populated database found [here](https://drive.google.com/file/d/1GMTWEUu_Wp0wLQ-PLe8c4gVEiFA1FPlV/view?usp=sharing) (~ 200 MB) or:
+1. Run `php artisan migrate` 
+2. Run `php artisan collect`
+3. Run `php artisan start`
+4. Go grab a coffee/tea/beer/something, as this may take some time :)
 
 ## Notice
 Have in mind that this is __not__ a scientific research. It is a project quickly put together to count usage in the wild. 
